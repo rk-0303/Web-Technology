@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- css introduced by hakon wium lie css3
+    used for styling and aligning web pages  .
+    inline css (highest priority)
+    internal css    | which apperar last get priority
+    external  css   | which appear last get priority
+
+   * Simple selectors 
+    1. id      (highest priority)
+    2. class  (second highest priority)
+    3. tag    (third highest priority)
+    4. all     (last priority)
+
+    
+        
+    <div style="height: 100px; width: 100px; background-color: antiquewhite" class="b">inline css</div>
+    <div class="a">internal css </div>
+    <div>External css</div> 
+    
+
+     <div class="c">class</div>
+     <p id="p">paragraph</p>
+     <nav id="n">navbar</nav>
+     -->
+</body>
+</html>
