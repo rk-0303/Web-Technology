@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <!-- <form>
+       <input type="text">  
+       <button>click</button>
+    </form> <br><br>
+    <form> -->
+        <input type="checkbox" id="html">  
+        <label for="html">html</label>
+
+        <input type="checkbox" id="css">
+        <label for="css">Css</label>
+
+        <input type="checkbox" id="js">
+        <label for="js">Javascript</label>
+        <button>click</button>
+     </form><br><br>
+     <form>
+      <!--  <input type="color">  
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="date">  
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="datetime">  
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="email" alt="Email"> 
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="file">  
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="image">  
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="month">  
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="number">  
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="password">  
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="url">  
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="time">  
+        <button>click</button>
+     </form><br><br>
+     <form>
+        <input type="week">  
+        <button>click</button>
+     </form><br><br> -->
+     <!-- <form> 
+        <span></span>
+        <br>
+        <input type="range" min="100" max="200" step="3"/>  
+        <button>click</button>
+     </form><br><br> -->
+<!--revision form -->
+
+     <script>
+        let input = document.querySelector("input");
+        let span = document.querySelector("span");
+        input.addEventListener("input", (e)=> {
+            console.log(e.target.value);
+            span.innerText = input.value
+        });
+     </script>
+</body>
+</html>
