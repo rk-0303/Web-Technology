@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./AssigmentStyle.css">
+</head>
+<body>
+    1. Select all <p> elements
+        HTML:
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        Task:
+        •	Use a tag selector (p) to change the text color of all paragraphs.
+
+        2. Select an element using an ID
+        HTML:
+        <p id="special">This is a special paragraph.</p>
+        Task:
+        •	Use an ID selector (#special) to change the font size of this paragraph.
+         
+        3. Select elements using a class
+        HTML:
+        <p class="highlight">Highlighted text.</p>
+        <p class="highlight">Another highlighted text.</p>
+        Task:
+        •	Use a class selector (.highlight) to set the background color.
+         
+        4. Select multiple elements (Grouping Selector)
+        HTML:
+        <h1>Title</h1>
+        <p>Some text.</p>
+        <span>Inline text.</span>
+        Task:
+        •	Use a grouping selector (h1, p, span) to set the text color to blue.
+         
+        5. Use the universal selector
+        HTML:
+        <p>Some text.</p>
+        <div>A div container.</div>
+        Task:
+        •	Use the universal selector (*) to add a border to all elements.
+         
+        6. Descendant selector
+        HTML:
+        <div>
+            <p>Inside a div.</p>
+        </div>
+        <p>Outside a div.</p>
+        Task:
+        •	Use the descendant selector (div p) to style only the <p> inside <div>.
+         
+        7. Child selector
+        HTML:
+        <div>
+            <p>Direct child paragraph.</p>
+            <section>
+                <p>Nested paragraph.</p>
+            </section>
+        </div>
+        Task:
+        •	Use the child selector (div > p) to style only the direct child of <div>.
+         
+        8. Adjacent sibling selector
+        HTML:
+        <h1>Heading</h1>
+        <p>First paragraph.</p>
+        <p>Second paragraph.</p>
+        Task:
+        •	Use the adjacent sibling selector (h1 + p) to style only the first <p> after <h1>.
+         
+        9. General sibling selector
+        HTML:
+        <h2>Subheading</h2>
+        <p>First paragraph.</p>
+        <p>Second paragraph.</p>
+        Task:
+        •	Use the general sibling selector (h2 ~ p) to style all <p> after <h2>.
+         
+        10. First Letter pseudo-element
+        HTML:
+        <p>This is an example paragraph.</p>
+        Task:
+        •	Use ::first-letter to make the first letter bold and larger.
+         
+        11. First Line pseudo-element
+        HTML:
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae erat eget odio.</p>
+        Task:
+        •	Use ::first-line to change the color of the first line.
+         
+        12. Before pseudo-element
+        HTML:
+        <h1>Heading</h1>
+        Task:
+        •	Use ::before to insert "→ " before the heading.
+         
+        13. After pseudo-element
+        HTML:
+        <h1>Heading</h1>
+        Task:
+        •	Use ::after to insert " ←" after the heading.
+         
+        14. Marker pseudo-element
+        HTML:
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+        Task:
+        •	Use ::marker to change the bullet points to red.
+         
+        15. Selection pseudo-element
+        HTML:
+        <p>Select this text to see an effect.</p>
+        Task:
+        •	Use :: selection to change the background color when text is selected.
+         
+        16. Combining selectors
+        HTML:
+        <div class="container">
+            <p>Text inside div.</p>
+        </div>
+        Task:
+        •	Use .container p to change text color.
+         
+        17. Styling nested lists
+        HTML:
+        <ul>
+            <li>Main item
+                <ul>
+                    <li>Sub-item</li>
+                </ul>
+            </li>
+        </ul>
+        Task:
+        •	Use ul ul li to style only sub-items.
+         
+        18. Select odd-numbered list items
+        HTML:
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        Task:
+        •	Use li:nth-child(odd) to set a different background.
+         
+        19. Select even-numbered paragraphs
+        HTML:
+        <p>First</p>
+        <p>Second</p>
+        <p>Third</p>
+        <p>Fourth</p>
+        Task:
+        •	Use p:nth-child(even) to change the font color.
+         
+        20. Select the last child
+        HTML:
+        <ul>
+            <li>First</li>
+            <li>Last</li>
+        </ul>
+        Task:
+        •	Use li:last-child to style only the last item.
+         
+        21. Select the first child
+        HTML:
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+        </ul>
+        Task:
+        •	Use li:first-child to make the first item bold.
+         
+        22. Selecting only direct children
+        HTML:
+        <div>
+            <p>Direct child</p>
+            <section>
+                <p>Nested child</p>
+            </section>
+        </div>
+        Task:
+        •	Use div > p to style the direct child.
+         
+        23. Multiple classes
+        HTML:
+        <p class="text_important">This is important.</p>
+        Task:
+        •	Use .text.important to style elements having both classes.
+         
+        24. Combining ID and class
+        HTML:
+        <p id="unique" class="special">Special text.</p>
+        Task:
+        •	Use #unique.special to style only this element.
+         
+        25. Styling links differently
+        HTML:
+        <a href="#">Click me</a>
+        Task:
+        •	Use a:link, a:hover, a:visited, and a:active to style links.
+         
+        26. Styling buttons
+        HTML:
+        <button>Click me</button>
+        Task:
+        •	Use button:hover to change background color.
+         
+        27. Styling table rows alternately
+        HTML:
+        <table>
+            <tr><td>Row 1</td></tr>
+            <tr><td>Row 2</td></tr>
+            <tr><td>Row 3</td></tr>
+        </table>
+        Task:
+        •	Use tr:nth-child(even) to color alternate rows.
+         
+        28. Targeting a specific input type
+        HTML:
+        <input type="text">
+        <input type="password">
+        Task:
+        •	Use input[type="password"] to change background.
+         
+        29. Styling elements inside a specific div
+        HTML:
+        <div id="box">
+            <p>Inside div</p>
+        </div>
+        Task:
+        •	Use #box p to style text inside div.
+         
+        30. Styling only checked checkboxes
+        HTML:
+        <input type="checkbox" checked>
+        <input type="checkbox">
+        Task:
+        •	Use input:checked to add a border.
+        
+        
+        
+</body>
+</html>

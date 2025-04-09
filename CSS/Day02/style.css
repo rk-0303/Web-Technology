@@ -1,0 +1,75 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} */
+/* div{
+width: 100px;
+height: 100px;
+background-color: cornflowerblue;
+}
+.c{
+
+}
+#p{
+  background-color: blanchedalmond;
+}
+#n{
+    color: red;
+} */
+
+/* div>div>p{
+  color:green;
+} */
+
+/* p::first-letter{
+  font-size: 70px;
+} */
+
+/* p::first-line{
+  font-size: 70px;
+} */
+
+/* p::selection{
+  color: rebeccapurple;
+  background-color: antiquewhite;
+} */
+
+/* p::before{
+  content: "before paragraph";
+  background-color: aqua;
+}
+
+p::after{
+  content: "after paragraph";
+  background-color: bisque;
+} */
+
+/* ul>#mango::marker{
+  content: "🥭";
+}
+ul>#apple::marker{
+  content: "🍎";
+}
+ul>#guava::marker{
+  content: "" ;
+} */
+
+li:first-child{
+  font-style: bold;
+}
+div>p
+{
+  color: yellowgreen;
+}
+.text_important{
+  background-color: aqua;
+}
+a:link{
+  color:yellow;
+}
+tr:nth-child(even)
+{
+  
+}

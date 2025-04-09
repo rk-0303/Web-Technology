@@ -1,0 +1,63 @@
+p{
+    color: rgb(166, 105, 0);
+    background-color: rgb(117, 181, 181);
+}
+#special {
+    font-size: 40px;
+}
+.highlight{
+    background-color: bisque;
+}
+h1,p,span{
+    color: blue;
+}
+*{
+    border: 2px solid;
+}
+div p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div p{
+    font-style: italic;
+}
+h1 + p {
+    color: chocolate;
+}
+h2 ~ p {
+    color:darkgreen;
+}
+p::first-letter{
+    font-size: 70px;
+}
+h1::before{
+    content: "➡️";
+}
+h1::after{
+    content: "⬅️";
+}
+ul>li::marker{
+    color: rgb(235, 45, 45);
+}
+p::selection{
+    background-color: b isque;
+}
+ul>li>ul>li{
+    background-color: rgb(228, 201, 254);
+}
+.container>p{
+    color: tomato;
+}
+ul>li{
+    background-color:green;
+}
+li:nth-child(odd)
+{
+    background-color: cornflowerblue;
+}
+p:nth-child(even)
+{
+    background-color: gold;
+}
+li:first-child{
+   font-style: italic;
+}
