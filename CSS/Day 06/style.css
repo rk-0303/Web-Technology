@@ -1,0 +1,54 @@
+body{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .bgClr div{
+    width: 40vw;
+    height: 80vh;
+    background-color: rgb(94, 21, 21);
+} */
+
+/* .bgImg div{
+    width: 80vw;
+    height: 80vh;
+    background-image: url(./Assets/thibault-penin-AWOl7qqsffM-unsplash.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    color: red;
+    font-size: 40px;
+} */
+
+.lnrgrad div {
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+
+    background-image: linear-gradient(to bottom right, purple,pink);
+}
+
+/* div{
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    background-image: radial-gradient(black,red,orange);
+} */
+
+/* div{
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    background-image: conic-gradient(red,orange,yellow,green,aqua,blue,purple,red);
+} */
+ 
+/* div{
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    background-image: repeating-radial-gradient(white 10%,black 13%);
+} */
+
