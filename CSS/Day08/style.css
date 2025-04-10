@@ -1,0 +1,43 @@
+/* Font styles */
+.p1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+/* Text styles */
+h1{
+    font-size: 4em;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 7px 6px 3px rgb(88, 73, 73) ;
+    /*            x axis  */
+}
+
+.p2{
+    text-indent: 50px;
+    font-size: 2em;
+}
+
+.p3{
+    text-indent: 90px;
+    font-size: 2em;
+}
+
+h3{
+    /* text-decoration: underline dashed; */
+    font-size: 4em;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 6px 3px 5px rgb(88, 73, 73) ;
+    text-decoration: underline;
+
+    text-decoration-color: rgb(31, 29, 26);
+    text-decoration-style: dashed;
+}
+
+.p4{
+    text-wrap: nowrap;
+}

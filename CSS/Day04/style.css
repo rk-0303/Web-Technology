@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* body{
+    height: 100vh;
+} */
+/* main{
+    width: 200px;
+    height: 200px;
+    background: lightcoral;
+} /* */
+div{
+    width: 50%;
+    height: 50%;
+    background: lightseagreen;
+} */
+/* div{
+    width: 20vw;
+    height: 20vh;
+    background: lightseagreen;
+}  */
+
+/* div{
+    font-size: 2rem;
+} */
+
+main{
+    font-size: 48px;
+}
+p{
+    font-size: 3rem;
+}

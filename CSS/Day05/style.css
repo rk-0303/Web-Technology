@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+<<<<<<< HEAD
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+/* }
+#a{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    /* background-color: black ; */
+/* }
+div{
+
+    width: 300px;
+    height: 300px;
+    border: solid; */
+    /* Below is rgb color combination method used to give color */
+    /* background-color:rgb(180, 60, 60); */
+
+
+    /* below is hexadecimal combination method used to give color  */
+    /* background-color: #22bbe6;
+} */ 
+
+p{
+    position: absolute;
+    
+}
+#c{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    position: absolute;
+    background-color: hsl(300deg, 80%, 70%,.5);
+=======
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+div{
+    vertical-align: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    /* background-color: rgb(255,210,200); */
+    /* background-color: rgb(90, 63, 63); */
+
+    /* background-color: #ff000000; 
+    background-color: #9900ff;
+    background-color: #881111;
+    background-color: #5555ff; */
+
+    background-color: hsl(100deg, 100%, 50%, 1);
+    position: absolute;
+}
+h1{
+    position: absolute;
+>>>>>>> 9887a4c7e90d8a0df49586cf5f1c55c8ee7fff71
+}
